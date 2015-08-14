@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8b2c1efe5315f3e4dd07e11e3f6bbbab",
+    "hash": "470686090e0b6c3aa68bd955a5809243",
     "packages": [
         {
             "name": "composer/installers",
@@ -324,22 +324,23 @@
         },
         {
             "name": "silverstripe/userforms",
-            "version": "dev-feature/multi-page-forms-v2",
+            "version": "dev-feature/add-segment-field-notemplates",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-sausages/silverstripe-userforms.git",
-                "reference": "8d15095bb2b51f88ca81278abfc1eb12dd338f3d"
+                "reference": "0741de2ceef4d7d0242eaf0f62985871d5fb0bbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-sausages/silverstripe-userforms/zipball/8d15095bb2b51f88ca81278abfc1eb12dd338f3d",
-                "reference": "8d15095bb2b51f88ca81278abfc1eb12dd338f3d",
+                "url": "https://api.github.com/repos/open-sausages/silverstripe-userforms/zipball/0741de2ceef4d7d0242eaf0f62985871d5fb0bbf",
+                "reference": "0741de2ceef4d7d0242eaf0f62985871d5fb0bbf",
                 "shasum": ""
             },
             "require": {
                 "silverstripe-australia/gridfieldextensions": "1.1.0",
                 "silverstripe/cms": ">=3.1.0",
-                "silverstripe/framework": ">=3.1.0"
+                "silverstripe/framework": ">=3.1.0",
+                "silverstripe/segment-field": "^1.0"
             },
             "suggest": {
                 "colymba/gridfield-bulk-editing-tools": "Allows for bulk management of form submissions"
@@ -365,9 +366,9 @@
                 "userforms"
             ],
             "support": {
-                "source": "https://github.com/open-sausages/silverstripe-userforms/tree/feature/multi-page-forms-v2"
+                "source": "https://github.com/open-sausages/silverstripe-userforms/tree/feature/add-segment-field-notemplates"
             },
-            "time": "2015-08-13 21:22:56"
+            "time": "2015-08-14 03:39:30"
         }
     ],
     "packages-dev": [
