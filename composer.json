@@ -6,9 +6,7 @@
 		"silverstripe/cms": "3.1.x-dev",
 		"silverstripe/framework": "3.1.x-dev",
 		"silverstripe-themes/simple": "*",
-		
-		"silverstripe-australia/gridfieldextensions": "1.1.0",
-		"silverstripe/userforms": "dev-feature/add-segment-field-notemplates"
+		"silverstripe/userforms": "3.0.x-dev"
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~3.7@stable"
@@ -16,11 +14,5 @@
 	"config": {
 		"process-timeout": 600
 	},
-	"minimum-stability": "dev",
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "git@github.com:open-sausages/silverstripe-userforms.git"
-		}
-	]
+	"minimum-stability": "dev"
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "470686090e0b6c3aa68bd955a5809243",
+    "hash": "809088b9e24b8ed8451b1379c8ce0418",
     "packages": [
         {
             "name": "composer/installers",
@@ -157,12 +157,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-themes/silverstripe-simple.git",
-                "reference": "81382031673f8e2034f5e5e91a6d67463f5ca7b4"
+                "reference": "9f471eb4ccff850d91c0120c3a3b59df523776b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/81382031673f8e2034f5e5e91a6d67463f5ca7b4",
-                "reference": "81382031673f8e2034f5e5e91a6d67463f5ca7b4",
+                "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/9f471eb4ccff850d91c0120c3a3b59df523776b7",
+                "reference": "9f471eb4ccff850d91c0120c3a3b59df523776b7",
                 "shasum": ""
             },
             "require": {
@@ -185,7 +185,7 @@
                 "silverstripe",
                 "theme"
             ],
-            "time": "2015-07-29 03:29:55"
+            "time": "2015-08-16 23:26:45"
         },
         {
             "name": "silverstripe/cms",
@@ -193,12 +193,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-cms.git",
-                "reference": "718503edb1aef780ecae26e50da8f212b5bbb9b6"
+                "reference": "e5a4cdb302c40688ba1f39a16dbab95f5dfc61f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/718503edb1aef780ecae26e50da8f212b5bbb9b6",
-                "reference": "718503edb1aef780ecae26e50da8f212b5bbb9b6",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/e5a4cdb302c40688ba1f39a16dbab95f5dfc61f4",
+                "reference": "e5a4cdb302c40688ba1f39a16dbab95f5dfc61f4",
                 "shasum": ""
             },
             "require": {
@@ -232,7 +232,7 @@
                 "cms",
                 "silverstripe"
             ],
-            "time": "2015-08-06 09:51:56"
+            "time": "2015-08-17 22:07:16"
         },
         {
             "name": "silverstripe/framework",
@@ -240,12 +240,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "5911d50bca0d6390ee9b65483ce2baf93af0480c"
+                "reference": "9eb2265a214ff5c8b15d52b6aff1d3e6fb48d4b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/5911d50bca0d6390ee9b65483ce2baf93af0480c",
-                "reference": "5911d50bca0d6390ee9b65483ce2baf93af0480c",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/9eb2265a214ff5c8b15d52b6aff1d3e6fb48d4b7",
+                "reference": "9eb2265a214ff5c8b15d52b6aff1d3e6fb48d4b7",
                 "shasum": ""
             },
             "require": {
@@ -281,7 +281,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2015-08-11 05:34:35"
+            "time": "2015-08-17 21:09:54"
         },
         {
             "name": "silverstripe/segment-field",
@@ -324,16 +324,16 @@
         },
         {
             "name": "silverstripe/userforms",
-            "version": "dev-feature/add-segment-field-notemplates",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/open-sausages/silverstripe-userforms.git",
-                "reference": "0741de2ceef4d7d0242eaf0f62985871d5fb0bbf"
+                "url": "https://github.com/silverstripe/silverstripe-userforms.git",
+                "reference": "a96d25ce1a198ed14ab6fbe9c522535a61c5d0d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-sausages/silverstripe-userforms/zipball/0741de2ceef4d7d0242eaf0f62985871d5fb0bbf",
-                "reference": "0741de2ceef4d7d0242eaf0f62985871d5fb0bbf",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/a96d25ce1a198ed14ab6fbe9c522535a61c5d0d3",
+                "reference": "a96d25ce1a198ed14ab6fbe9c522535a61c5d0d3",
                 "shasum": ""
             },
             "require": {
@@ -351,6 +351,7 @@
                     "dev-master": "3.0.x-dev"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -365,10 +366,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "support": {
-                "source": "https://github.com/open-sausages/silverstripe-userforms/tree/feature/add-segment-field-notemplates"
-            },
-            "time": "2015-08-14 03:39:30"
+            "time": "2015-08-17 23:33:54"
         }
     ],
     "packages-dev": [
