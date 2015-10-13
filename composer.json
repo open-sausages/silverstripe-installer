@@ -3,24 +3,30 @@
 	"description": "The SilverStripe Framework Installer",
 	"require": {
 		"php": ">=5.3.2",
-		"silverstripe/cms": "3.1.x-dev",
-		"silverstripe/framework": "3.1.x-dev",
+		"scott1702/cms": "integrate-asset-gallery-view",
+		"open-sausages/framework": "dbfile-dataobject-gallery-view",
 		"silverstripe-themes/simple": "*",
-		
-		"silverstripe-australia/gridfieldextensions": "1.1.0",
-		"silverstripe/userforms": "dev-feature/add-segment-field-notemplates"
+		"open-sausages/asset-gallery-field": "dev-master"
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~3.7@stable"
 	},
 	"config": {
-		"process-timeout": 600
+		"process-timeout": 2000
 	},
 	"minimum-stability": "dev",
 	"repositories": [
 		{
 			"type": "vcs",
-			"url": "git@github.com:open-sausages/silverstripe-userforms.git"
+			"url": "git@github.com:open-sausages/silverstripe-framework.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:scott1702/silverstripe-cms.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:open-sausages/silverstripe-assets-gallery.git"
 		}
 	]
 }
