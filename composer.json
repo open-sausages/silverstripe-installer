@@ -6,7 +6,7 @@
 		"silverstripe/cms": "dev-integrate-asset-gallery-view",
 		"silverstripe/framework": "dev-dbfile-dataobject-gallery-view",
 		"silverstripe-themes/simple": "*",
-		"open-sausages/asset-gallery-field": "dev-master"
+		"silverstripe/asset-gallery-field": "dev-master"
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~3.7@stable"
