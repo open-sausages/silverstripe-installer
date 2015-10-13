@@ -18,15 +18,15 @@
 	"repositories": [
 		{
 			"type": "vcs",
-			"url": "git@github.com:open-sausages/silverstripe-framework.git"
+			"url": "git+https://github.com/open-sausages/silverstripe-framework.git"
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:scott1702/silverstripe-cms.git"
+			"url": "git+https://github.com/scott1702/silverstripe-cms.git"
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:open-sausages/silverstripe-assets-gallery.git"
+			"url": "git+https://github.com/open-sausages/silverstripe-assets-gallery.git"
 		}
 	]
 }
