@@ -6,7 +6,8 @@
 		"silverstripe/cms": "dev-integrate-asset-gallery-view",
 		"silverstripe/framework": "dev-dbfile-dataobject-gallery-view",
 		"silverstripe-themes/simple": "*",
-		"silverstripe/asset-gallery-field": "dev-master"
+		"silverstripe/asset-gallery-field": "dev-master",
+		"silverstripe/reactjs-common": "dev-master"
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~3.7@stable"
@@ -27,6 +28,10 @@
 		{
 			"type": "vcs",
 			"url": "https://github.com/open-sausages/silverstripe-assets-gallery.git"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/open-sausages/silverstripe-reactjs-common"
 		}
 	]
 }
