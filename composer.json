@@ -1,37 +1,32 @@
 {
 	"name": "silverstripe/installer",
 	"description": "The SilverStripe Framework Installer",
+	"repositories": [{
+		"type": "vcs",
+		"url": "https://github.com/open-sausages/silverstripe-framework"
+	},{
+		"type": "vcs",
+		"url": "https://github.com/open-sausages/silverstripe-cms"
+	},{
+		"type": "vcs",
+		"url": "https://github.com/open-sausages/silverstripe-assets-gallery"
+	},{
+		"type": "vcs",
+		"url": "https://github.com/open-sausages/silverstripe-reactjs-common"
+	}],
 	"require": {
 		"php": ">=5.3.2",
-		"silverstripe/cms": "dev-integrate-asset-gallery-view",
-		"silverstripe/framework": "dev-dbfile-dataobject-gallery-view",
-		"silverstripe-themes/simple": "*",
+		"silverstripe/cms": "dev-integrate-asset-gallery-view as 4.0.x-dev",
+		"silverstripe/framework": "dev-insert-media-gallery as 4.0.x-dev",
 		"silverstripe/asset-gallery-field": "dev-master",
-		"silverstripe/reactjs-common": "dev-master"
+		"silverstripe/reactjs-common": "dev-master",
+		"silverstripe-themes/simple": "*"
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~3.7@stable"
 	},
 	"config": {
-		"process-timeout": 2000
+		"process-timeout": 600
 	},
-	"minimum-stability": "dev",
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/open-sausages/silverstripe-framework.git"
-		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/scott1702/silverstripe-cms.git"
-		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/open-sausages/silverstripe-assets-gallery.git"
-		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/open-sausages/silverstripe-reactjs-common"
-		}
-	]
+	"minimum-stability": "dev"
 }
