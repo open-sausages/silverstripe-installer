@@ -3,10 +3,11 @@
 	"description": "The SilverStripe Framework Installer",
 	"require": {
 		"php": ">=5.3.3",
-		"silverstripe/cms": "self.version",
-		"silverstripe/framework": "self.version",
-		"silverstripe/reports": "self.version",
-		"silverstripe/siteconfig": "self.version",
+		"silverstripe/cms": "dev-integrate-react as 4.0.x-dev",
+		"silverstripe/framework": "dev-integrate-react as 4.0.x-dev",
+		"silverstripe/asset-admin": "dev-master",
+		"silverstripe/reports": "dev-master",
+		"silverstripe/siteconfig": "dev-master",
 		"silverstripe-themes/simple": "3.1.*"
 	},
 	"require-dev": {
@@ -21,5 +22,15 @@
 		"process-timeout": 600
 	},
 	"prefer-stable": true,
-	"minimum-stability": "dev"
+	"minimum-stability": "dev",
+	"repositories": [{
+		"type": "vcs",
+		"url": "https://github.com/open-sausages/silverstripe-framework"
+	},{
+		"type": "vcs",
+		"url": "https://github.com/open-sausages/silverstripe-cms"
+	},{
+		"type": "vcs",
+		"url": "https://github.com/open-sausages/silverstripe-asset-admin"
+	}]
 }
