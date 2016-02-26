@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bcc4885926bc7ce0c58bb556d22abd88",
-    "content-hash": "f14cde3c4a59ecd506e927f6d4ac0591",
+    "hash": "3396db3a89f084a80019e67392dba776",
+    "content-hash": "48bf8f3a50c348f668729f66845ec88a",
     "packages": [
         {
             "name": "composer/installers",
@@ -304,42 +304,6 @@
             "time": "2012-12-21 11:40:51"
         },
         {
-            "name": "silverstripe-themes/simple",
-            "version": "3.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silverstripe-themes/silverstripe-simple.git",
-                "reference": "3cf638c170e649b6b122504c8f62d6d8946b853c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/3cf638c170e649b6b122504c8f62d6d8946b853c",
-                "reference": "3cf638c170e649b6b122504c8f62d6d8946b853c",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "*",
-                "silverstripe/framework": ">=3.0"
-            },
-            "type": "silverstripe-theme",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sara Tušar (Innovaif)",
-                    "homepage": "http://www.saratusar.com"
-                }
-            ],
-            "description": "The SilverStripe simple theme (default SilverStripe 3 theme)",
-            "keywords": [
-                "silverstripe",
-                "theme"
-            ],
-            "time": "2015-04-09 03:18:37"
-        },
-        {
             "name": "silverstripe/cms",
             "version": "dev-master",
             "source": {
@@ -402,12 +366,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "f088b07b1c3aab73d6ecb63464b06de9bd7444e8"
+                "reference": "adf356a6a539288fb402c4e50b3b6ef6d0a59df8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/f088b07b1c3aab73d6ecb63464b06de9bd7444e8",
-                "reference": "f088b07b1c3aab73d6ecb63464b06de9bd7444e8",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/adf356a6a539288fb402c4e50b3b6ef6d0a59df8",
+                "reference": "adf356a6a539288fb402c4e50b3b6ef6d0a59df8",
                 "shasum": ""
             },
             "require": {
@@ -451,7 +415,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2016-02-25 22:49:56"
+            "time": "2016-02-26 02:08:36"
         },
         {
             "name": "silverstripe/reports",
