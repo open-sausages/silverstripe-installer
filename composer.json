@@ -8,7 +8,9 @@
         "silverstripe/framework": "dev-features/campaign-admin as 4.0.x-dev",
         "silverstripe/reports": "4.0.x-dev",
         "silverstripe/siteconfig": "4.0.x-dev",
-        "silverstripe-themes/simple": "*"
+        "silverstripe-themes/simple": "*",
+		"silverstripe/crontask": "3.x-dev",
+		"silverstripe/dynamodb": "dev-master"
     },
     "require-dev": {
         "phpunit/PHPUnit": "~4.8"
