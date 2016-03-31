@@ -437,12 +437,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-sausages/silverstripe-framework.git",
-                "reference": "b2273e2d8e84677e3000ba375475556a74155144"
+                "reference": "abaf45ea65e8c345a4f93f0eddc8d6cb9f0aa544"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-sausages/silverstripe-framework/zipball/b2273e2d8e84677e3000ba375475556a74155144",
-                "reference": "b2273e2d8e84677e3000ba375475556a74155144",
+                "url": "https://api.github.com/repos/open-sausages/silverstripe-framework/zipball/abaf45ea65e8c345a4f93f0eddc8d6cb9f0aa544",
+                "reference": "abaf45ea65e8c345a4f93f0eddc8d6cb9f0aa544",
                 "shasum": ""
             },
             "require": {
@@ -488,7 +488,7 @@
             "support": {
                 "source": "https://github.com/open-sausages/silverstripe-framework/tree/features/campaign-admin"
             },
-            "time": "2016-03-30 19:41:21"
+            "time": "2016-03-31 03:04:07"
         },
         {
             "name": "silverstripe/reports",
