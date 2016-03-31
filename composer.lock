@@ -346,12 +346,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-asset-admin.git",
-                "reference": "07e27be521b59041069d2b1380dd4f146fa9a2df"
+                "reference": "fb6d742bf9aa6fe70b268d51875a515642d19fa9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-asset-admin/zipball/07e27be521b59041069d2b1380dd4f146fa9a2df",
-                "reference": "07e27be521b59041069d2b1380dd4f146fa9a2df",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-asset-admin/zipball/fb6d742bf9aa6fe70b268d51875a515642d19fa9",
+                "reference": "fb6d742bf9aa6fe70b268d51875a515642d19fa9",
                 "shasum": ""
             },
             "require": {
@@ -370,7 +370,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Asset management for the SilverStripe CMS",
-            "time": "2016-03-31 01:36:53"
+            "time": "2016-03-31 03:17:22"
         },
         {
             "name": "silverstripe/cms",
@@ -437,12 +437,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-sausages/silverstripe-framework.git",
-                "reference": "abaf45ea65e8c345a4f93f0eddc8d6cb9f0aa544"
+                "reference": "e2ac1fb8907e597f7150435f5d6d8dc9cb9cdbd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-sausages/silverstripe-framework/zipball/abaf45ea65e8c345a4f93f0eddc8d6cb9f0aa544",
-                "reference": "abaf45ea65e8c345a4f93f0eddc8d6cb9f0aa544",
+                "url": "https://api.github.com/repos/open-sausages/silverstripe-framework/zipball/e2ac1fb8907e597f7150435f5d6d8dc9cb9cdbd8",
+                "reference": "e2ac1fb8907e597f7150435f5d6d8dc9cb9cdbd8",
                 "shasum": ""
             },
             "require": {
@@ -488,7 +488,7 @@
             "support": {
                 "source": "https://github.com/open-sausages/silverstripe-framework/tree/features/campaign-admin"
             },
-            "time": "2016-03-31 03:04:07"
+            "time": "2016-03-31 04:39:58"
         },
         {
             "name": "silverstripe/reports",
