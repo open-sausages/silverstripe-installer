@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.31.1",
+            "version": "3.31.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "551865464a2779b9038aa871094a24bb9e254e24"
+                "reference": "582e7764e0fa389c3248450cd6db2564dd656d99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/551865464a2779b9038aa871094a24bb9e254e24",
-                "reference": "551865464a2779b9038aa871094a24bb9e254e24",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/582e7764e0fa389c3248450cd6db2564dd656d99",
+                "reference": "582e7764e0fa389c3248450cd6db2564dd656d99",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2017-07-05T17:26:26+00:00"
+            "time": "2017-07-06T21:11:49+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -769,12 +769,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-sausages/silverstripe-s3.git",
-                "reference": "ab1bda7085a1ddb53b48af04e33ececace7f1ec5"
+                "reference": "4e7de6814ead5d22eb13403fc1f413cc70411749"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-sausages/silverstripe-s3/zipball/ab1bda7085a1ddb53b48af04e33ececace7f1ec5",
-                "reference": "ab1bda7085a1ddb53b48af04e33ececace7f1ec5",
+                "url": "https://api.github.com/repos/open-sausages/silverstripe-s3/zipball/4e7de6814ead5d22eb13403fc1f413cc70411749",
+                "reference": "4e7de6814ead5d22eb13403fc1f413cc70411749",
                 "shasum": ""
             },
             "require": {
@@ -799,7 +799,7 @@
             "support": {
                 "source": "https://github.com/open-sausages/silverstripe-s3/tree/master"
             },
-            "time": "2017-07-06T04:35:13+00:00"
+            "time": "2017-07-06T22:22:24+00:00"
         },
         {
             "name": "marcj/topsort",
