@@ -3,19 +3,21 @@
     "description": "The SilverStripe Framework Installer",
     "require": {
         "php": ">=5.6.0",
-        "silverstripe/admin": "1.0.x-dev",
-        "silverstripe/asset-admin": "1.0.x-dev",
-        "silverstripe/assets": "1.0.x-dev",
-        "silverstripe/campaign-admin": "1.0.x-dev",
-        "silverstripe/cms": "4.0.x-dev",
-        "silverstripe/config": "1.0.x-dev",
-        "silverstripe/errorpage": "1.0.x-dev",
-        "silverstripe/framework": "4.0.x-dev",
-        "silverstripe/graphql": "0.2.x-dev",
-        "silverstripe/reports": "4.0.x-dev",
-        "silverstripe/siteconfig": "4.0.x-dev",
-        "silverstripe/versioned": "1.0.x-dev",
-        "silverstripe-themes/simple": "~3.2.0"
+        "silverstripe/admin": "^1.0@beta",
+        "silverstripe/asset-admin": "^1.0@beta",
+        "silverstripe/assets": "^1.0@beta",
+        "silverstripe/campaign-admin": "^1.0@beta",
+        "silverstripe/cms": "^4.0@beta",
+        "silverstripe/config": "^1.0@beta",
+        "silverstripe/errorpage": "^1.0@beta",
+        "silverstripe/framework": "^4.0@beta",
+        "silverstripe/graphql": "^0.2@beta",
+        "silverstripe/reports": "^4.0@beta",
+        "silverstripe/siteconfig": "^4.0@beta",
+        "silverstripe/versioned": "^1.0@beta",
+        "silverstripe-themes/simple": "~3.2.0",
+        "madmatt/silverstripe-s3": "dev-master",
+        "silverstripe/dynamodb": "dev-master"
     },
     "require-dev": {
         "phpunit/PHPUnit": "^5.7"
@@ -24,6 +26,12 @@
         "branch-alias": {
             "4.x-dev": "4.0.x-dev",
             "dev-master": "5.x-dev"
+        }
+    },
+    "repositories": {
+        "open-sausages": {
+            "type": "vcs",
+            "url": "git@github.com:open-sausages/silverstripe-s3.git"
         }
     },
     "config": {
