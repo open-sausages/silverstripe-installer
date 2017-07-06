@@ -1,0 +1,12 @@
+---
+Name: mysitelogging
+After:
+  - framework/logging#live-logging
+Except:
+  environment: dev
+---
+# Force live errors to use detailed error handler
+SilverStripe\Core\Injector\Injector:
+  Monolog\Handler\HandlerInterface:
+    properties:
+      DefaultFormatter: %$Monolog\Formatter\FormatterInterface.detailed
