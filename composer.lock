@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b56c4f95d521728b76cd4b5ec29d2ce",
+    "content-hash": "51b3ef580e46653d0f632f0ba9893033",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -768,13 +768,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/open-sausages/silverstripe-s3.git",
-                "reference": "4e7de6814ead5d22eb13403fc1f413cc70411749"
+                "url": "https://github.com/madmatt/silverstripe-s3.git",
+                "reference": "db6671b11ca7b34fe3880f511b4027481fbcdbe8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-sausages/silverstripe-s3/zipball/4e7de6814ead5d22eb13403fc1f413cc70411749",
-                "reference": "4e7de6814ead5d22eb13403fc1f413cc70411749",
+                "url": "https://api.github.com/repos/madmatt/silverstripe-s3/zipball/db6671b11ca7b34fe3880f511b4027481fbcdbe8",
+                "reference": "db6671b11ca7b34fe3880f511b4027481fbcdbe8",
                 "shasum": ""
             },
             "require": {
@@ -795,11 +795,9 @@
                     "Madmatt\\SilverStripeS3\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Adds SilverStripe support for using the S3 adapter for Flysystem",
-            "support": {
-                "source": "https://github.com/open-sausages/silverstripe-s3/tree/master"
-            },
-            "time": "2017-07-06T22:22:24+00:00"
+            "time": "2017-07-14T04:11:41+00:00"
         },
         {
             "name": "marcj/topsort",

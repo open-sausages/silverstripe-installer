@@ -28,12 +28,6 @@
             "dev-master": "5.x-dev"
         }
     },
-    "repositories": {
-        "open-sausages": {
-            "type": "vcs",
-            "url": "git@github.com:open-sausages/silverstripe-s3.git"
-        }
-    },
     "config": {
         "process-timeout": 600
     },
