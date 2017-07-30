@@ -16,12 +16,18 @@
         "silverstripe/siteconfig": "4.0.x-dev",
         "silverstripe/versioned": "1.0.x-dev",
         "silverstripe-themes/simple": "~3.2.0",
-        "madmatt/silverstripe-s3": "dev-master",
+        "silverstripe/s3": "dev-pulls/1.0/cache-me-riding-dirty",
         "silverstripe/dynamodb": "dev-master"
     },
     "require-dev": {
         "phpunit/PHPUnit": "^5.7"
     },
+	"repositories": {
+		"open-sausages": {
+			"type": "vcs",
+			"url": "git@github.com:open-sausages/silverstripe-s3.git"
+		}
+	},
     "extra": {
         "branch-alias": {
             "4.x-dev": "4.0.x-dev",
