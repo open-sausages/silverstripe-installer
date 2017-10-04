@@ -16,5 +16,5 @@ default:
       selenium2:
         browser: firefox
     SilverStripe\BehatExtension\Extension:
-      bootstrap_file: cms/tests/behat/serve-bootstrap.php
+      bootstrap_file: vendor/silverstripe/cms/tests/behat/serve-bootstrap.php
       screenshot_path: %paths.base%/artifacts/screenshots
