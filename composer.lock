@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "54abf72228138324826e584e6d894a1f",
+    "content-hash": "f6aab2e3b8cd1ffcd57d7c192a328d22",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1253,12 +1253,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-admin.git",
-                "reference": "4a81b5346e677b54db8330b8938939405d9edcaf"
+                "reference": "f2467d37241ca08b0cc4a112d1dc9054adf891a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/4a81b5346e677b54db8330b8938939405d9edcaf",
-                "reference": "4a81b5346e677b54db8330b8938939405d9edcaf",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/f2467d37241ca08b0cc4a112d1dc9054adf891a8",
+                "reference": "f2467d37241ca08b0cc4a112d1dc9054adf891a8",
                 "shasum": ""
             },
             "require": {
@@ -1303,7 +1303,7 @@
                 "admin",
                 "silverstripe"
             ],
-            "time": "2018-10-19 15:55:05"
+            "time": "2018-10-29 01:14:04"
         },
         {
             "name": "silverstripe/asset-admin",
@@ -1629,12 +1629,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "b47d9abd7cfc26b5ebd9cd1aaa60092f492465a5"
+                "reference": "511c368e8c9b01ad281c2c790551c4db9e94422d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/b47d9abd7cfc26b5ebd9cd1aaa60092f492465a5",
-                "reference": "b47d9abd7cfc26b5ebd9cd1aaa60092f492465a5",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/511c368e8c9b01ad281c2c790551c4db9e94422d",
+                "reference": "511c368e8c9b01ad281c2c790551c4db9e94422d",
                 "shasum": ""
             },
             "require": {
@@ -1737,7 +1737,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2018-10-24 16:33:46"
+            "time": "2018-10-29 01:57:21"
         },
         {
             "name": "silverstripe/frameworktest",
@@ -2171,12 +2171,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-versioned-admin.git",
-                "reference": "d9e83412a309cb0f03cdd50a218f4dc45b470821"
+                "reference": "35dfc67744e56568fa0352411e12334ed9e50fe3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-versioned-admin/zipball/d9e83412a309cb0f03cdd50a218f4dc45b470821",
-                "reference": "d9e83412a309cb0f03cdd50a218f4dc45b470821",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-versioned-admin/zipball/35dfc67744e56568fa0352411e12334ed9e50fe3",
+                "reference": "35dfc67744e56568fa0352411e12334ed9e50fe3",
                 "shasum": ""
             },
             "require": {
@@ -2223,7 +2223,7 @@
                 "silverstripe",
                 "versioned"
             ],
-            "time": "2018-10-23 22:50:49"
+            "time": "2018-10-26 03:54:19"
         },
         {
             "name": "swiftmailer/swiftmailer",
