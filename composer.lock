@@ -1253,12 +1253,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-admin.git",
-                "reference": "f2467d37241ca08b0cc4a112d1dc9054adf891a8"
+                "reference": "742a3067bb7addc89eb05c7ed772133335214966"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/f2467d37241ca08b0cc4a112d1dc9054adf891a8",
-                "reference": "f2467d37241ca08b0cc4a112d1dc9054adf891a8",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/742a3067bb7addc89eb05c7ed772133335214966",
+                "reference": "742a3067bb7addc89eb05c7ed772133335214966",
                 "shasum": ""
             },
             "require": {
@@ -1303,7 +1303,7 @@
                 "admin",
                 "silverstripe"
             ],
-            "time": "2018-10-29 01:14:04"
+            "time": "2018-10-30 22:01:12"
         },
         {
             "name": "silverstripe/asset-admin",
@@ -1311,12 +1311,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-asset-admin.git",
-                "reference": "4600d304441a66829c17b775cec1e3b000af4bcb"
+                "reference": "87610359b217119929ef205e2fe2ab0e482f97d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-asset-admin/zipball/4600d304441a66829c17b775cec1e3b000af4bcb",
-                "reference": "4600d304441a66829c17b775cec1e3b000af4bcb",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-asset-admin/zipball/87610359b217119929ef205e2fe2ab0e482f97d8",
+                "reference": "87610359b217119929ef205e2fe2ab0e482f97d8",
                 "shasum": ""
             },
             "require": {
@@ -1349,7 +1349,7 @@
                 "BSD-3-Clause"
             ],
             "description": "Asset management for the SilverStripe CMS",
-            "time": "2018-10-19 13:14:23"
+            "time": "2018-11-01 00:14:14"
         },
         {
             "name": "silverstripe/assets",
@@ -1629,12 +1629,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "511c368e8c9b01ad281c2c790551c4db9e94422d"
+                "reference": "55f95b7bc8f91384df459bd70c87cacf92225f68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/511c368e8c9b01ad281c2c790551c4db9e94422d",
-                "reference": "511c368e8c9b01ad281c2c790551c4db9e94422d",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/55f95b7bc8f91384df459bd70c87cacf92225f68",
+                "reference": "55f95b7bc8f91384df459bd70c87cacf92225f68",
                 "shasum": ""
             },
             "require": {
@@ -1737,7 +1737,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2018-10-29 01:57:21"
+            "time": "2018-11-01 01:17:15"
         },
         {
             "name": "silverstripe/frameworktest",
@@ -2171,12 +2171,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-versioned-admin.git",
-                "reference": "35dfc67744e56568fa0352411e12334ed9e50fe3"
+                "reference": "13d445ebf05b2b54810ef08736611652672228a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-versioned-admin/zipball/35dfc67744e56568fa0352411e12334ed9e50fe3",
-                "reference": "35dfc67744e56568fa0352411e12334ed9e50fe3",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-versioned-admin/zipball/13d445ebf05b2b54810ef08736611652672228a4",
+                "reference": "13d445ebf05b2b54810ef08736611652672228a4",
                 "shasum": ""
             },
             "require": {
@@ -2223,7 +2223,7 @@
                 "silverstripe",
                 "versioned"
             ],
-            "time": "2018-10-26 03:54:19"
+            "time": "2018-10-30 02:24:57"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2514,7 +2514,7 @@
         },
         {
             "name": "symfony/polyfill-apcu",
-            "version": "v1.9.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-apcu.git",
@@ -2570,7 +2570,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.9.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -2628,16 +2628,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.9.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8"
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/d0cd638f4634c16d8df4508e847f14e9e43168b8",
-                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/c79c051f5b3a46be09205c73b80b346e4153e494",
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494",
                 "shasum": ""
             },
             "require": {
@@ -2683,7 +2683,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-08-06T14:22:27+00:00"
+            "time": "2018-09-21T13:07:52+00:00"
         },
         {
             "name": "symfony/translation",
