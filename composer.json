@@ -7,7 +7,24 @@
         "silverstripe/recipe-plugin": "^1.2",
         "silverstripe/recipe-cms": "4.3.x-dev",
         "silverstripe-themes/simple": "~3.2.0",
-        "silverstripe/frameworktest": "dev-master"
+        "silverstripe/frameworktest": "dev-master",
+        "silverstripe/framework": "4.3.x-dev",
+        "silverstripe/graphql": "3.0.x-dev",
+        "silverstripe/admin": "1.3.x-dev"
+    },
+    "repositories": {
+        "silverstripe/framework": {
+            "type": "vcs",
+            "url": "git@github.com:/silverstripe-security/silverstripe-framework"
+        },
+        "silverstripe/admin": {
+            "type": "vcs",
+            "url": "git@github.com:/silverstripe-security/silverstripe-admin"
+        },
+        "silverstripe/graphql": {
+            "type": "vcs",
+            "url": "git@github.com:/silverstripe-security/silverstripe-graphql"
+        }
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
