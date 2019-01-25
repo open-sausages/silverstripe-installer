@@ -80,7 +80,7 @@ before_script:
   - if [[ $DB == PGSQL ]]; then composer require --no-update silverstripe/postgresql:2.1.x-dev; fi
   - if [[ $BEHAT_TEST ]]; then composer require --no-update silverstripe/recipe-testing:^1; fi;
   - if [[ $HEALTH_TEST ]]; then composer require --no-update silverstripe/serve:^2; fi;
-  - if ! [[ $HEALTH_TEST ]]; then composer install --prefer-dist --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile; fi;
+  - if ! [[ $HEALTH_TEST ]]; then composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile; fi;
   - if [[ $HEALTH_TEST ]]; then composer install --prefer-dist --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile --no-dev; fi;
 
 # Start behat services
@@ -91,7 +91,7 @@ before_script:
   - if [[ $BEHAT_TEST ]] || [[ $HEALTH_TEST ]]; then (vendor/bin/serve --bootstrap-file vendor/silverstripe/cms/tests/behat/serve-bootstrap.php &> artifacts/serve.log &); sleep 3; fi
 
 script:
-  - if [[ $PHPUNIT_TEST ]]; then vendor/bin/phpunit --testsuite $PHPUNIT_TEST; fi
+  - if [[ $PHPUNIT_TEST ]]; then for t in $(find vendor/silverstripe/framework/tests/php -maxdepth 1 -mindepth 1 -type d); do echo "$t"; time vendor/bin/phpunit -c phpunit.xml.dist $t; done; fi
   - if [[ $BEHAT_TEST ]]; then vendor/bin/behat $BEHAT_TEST; fi
   - if [[ $HEALTH_TEST ]]; then curl -vfL http://localhost:8080/dev/build?flush; fi
   - if [[ $HEALTH_TEST ]]; then curl -vfL http://localhost:8080/admin; fi
