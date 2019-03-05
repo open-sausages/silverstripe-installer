@@ -7,7 +7,7 @@
         "silverstripe/recipe-plugin": "^1.2",
         "silverstripe/recipe-cms": "4.3.x-dev",
         "silverstripe-themes/simple": "~3.2.0",
-	"silverstripe/custom-asset-store": "dev-master"
+        "silverstripe/custom-asset-store": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
@@ -20,6 +20,20 @@
         "public-files": [
             "assets/*",
             "favicon.ico"
+        ],
+        "project-files-installed": [
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/mysite.yml",
+            "app/src/Page.php",
+            "app/src/PageController.php"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "install-frameworkmissing.html",
+            "install.php",
+            "web.config"
         ]
     },
     "config": {
