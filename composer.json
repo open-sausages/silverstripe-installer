@@ -7,7 +7,7 @@
         "silverstripe/recipe-plugin": "^1.2",
         "silverstripe/recipe-cms": "4.3.x-dev",
         "silverstripe-themes/simple": "~3.2.0",
-        "silverstripe/custom-asset-store": "dev-master"
+        "silverstripe/assets": "dev-test/1.3/mucho-important-permalink-fix as 1.3.x-dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
@@ -44,7 +44,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:open-sausages/custom-asset-store.git"
+            "url": "git@github.com:open-sausages/silverstripe-assets.git"
         }
     ]
 }
